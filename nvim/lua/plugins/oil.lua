@@ -10,5 +10,6 @@ return { -- 返回插件配置表
   lazy = false, -- 禁用延迟加载（启动时立即加载）
   config = function () -- 插件配置函数
     require("oil").setup() -- 初始化 oil 插件
+    vim.keymap.set("n", "-", "<CMD>Oil<CR>", { desc = "Open parent directory" })
   end
 }

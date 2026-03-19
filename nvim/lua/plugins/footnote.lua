@@ -1,6 +1,6 @@
 return { -- 返回插件配置表
   'chenxin-yan/footnote.nvim', -- 插件仓库地址（脚注管理插件）
-  opts = { -- 插件选项
+  opts = { -- 插件选项在md文档下生效
       keys = { -- 键位映射
         n = { -- 普通模式
             new_footnote = '<leader>fn', -- Leader+fn 新建脚注
