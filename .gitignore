@@ -1,0 +1,10 @@
+.lexical
+.DS_Store
+.mvn/
+.idea/
+*.iml
+.idea/workspace.xml
+*.log
+target
+.ruby-lsp
+lazy-lock.json
